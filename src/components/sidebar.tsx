@@ -7,7 +7,7 @@ import {
 } from "lucide-react"
 import { Popover, PopoverContent, PopoverTrigger } from "./ui/popover"
 import { Link, useRouter } from "@tanstack/react-router"
-import logo from "@/assets/Logo.svg"
+import logo from "@/assets/logo.svg"
 import ProfileDropdown from "./profile-dropdown-menu"
 import {
   Select,
