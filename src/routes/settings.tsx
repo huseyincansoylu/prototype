@@ -1,17 +1,12 @@
 import { createFileRoute } from "@tanstack/react-router"
 
-import { Copy, Info } from "lucide-react"
+import { Copy } from "lucide-react"
 import { useState } from "react"
 
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { Switch } from "@/components/ui/switch"
-import {
-  Tooltip,
-  TooltipContent,
-  TooltipProvider,
-  TooltipTrigger,
-} from "@/components/ui/tooltip"
+
 import PageHeaderWrapper from "@/components/page-header-wrapper"
 
 export const Route = createFileRoute("/settings")({
