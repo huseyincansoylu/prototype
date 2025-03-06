@@ -6,7 +6,7 @@ interface PageHeaderWrapperProps {
 
 const PageHeaderWrapper: React.FC<PageHeaderWrapperProps> = ({ children }) => {
   return (
-    <div className="flex justify-between items-center border-b border-gray-200 p-4 mb-6">
+    <div className="flex justify-between items-center border-b border-gray-200 p-4">
       {children}
     </div>
   )
