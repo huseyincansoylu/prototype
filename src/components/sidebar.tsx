@@ -1,9 +1,6 @@
 import {
-  ArrowRightIcon,
   ChartBarIcon,
-  ChartLineIcon,
   ChartPieIcon,
-  CircleDashed,
   CircleHelp,
   Copy,
   SquareArrowOutUpRight,
@@ -23,7 +20,6 @@ import { Badge } from "./ui/badge"
 import { Separator } from "./ui/separator"
 import arbitrum from "@/assets/arbitrum.svg"
 import { Tooltip, TooltipContent, TooltipTrigger } from "./ui/tooltip"
-import { Button } from "./ui/button"
 
 const navItems = [
   {
